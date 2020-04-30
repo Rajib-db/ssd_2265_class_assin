@@ -411,19 +411,24 @@ article a img {
     background: -webkit-linear-gradient(left, rgba(29, 181, 108, 1) 0%, rgba(7, 208, 17, 1) 100%);
     background: linear-gradient(to right, rgba(29, 181, 108, 1) 0%, rgba(7, 208, 17, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1db56c', endColorstr='#07d011', GradientType=1);
+    height: 50px;
     color: #fff;
-    padding: 16px 54px;
+    padding: 16px 50px;
     margin: 20px 0;
     font-size: 16px;
+    display: block;
+    text-transform: capitalize;
 }
 
 .btn.btn_border {
     border: 1px solid #333;
-    padding: 16px 44px;
+    height: 50px;
+    padding: 16px 40px;
+    margin: 20px 0;
+    font-size: 16px;
     display: block;
     color: #333;
     text-transform: capitalize;
-    font-size: 16;
 }
 
 
